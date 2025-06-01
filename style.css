@@ -69,3 +69,19 @@ nav ul li a:hover{
 .purple{
     color: blueviolet;
 }
+
+#element{
+    color: blueviolet;
+}
+
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+}
+
+main hr {
+    border: 0;
+    background-color: #9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+}

@@ -26,14 +26,30 @@
       <section class="firstsection">
 
         <div class="leftsection">Hi ! My name is <span class="purple">Bhavesh Singh</span>
-        <div>and I am good Web Developer</div>   
+        <div>and I am good Web Developer</div>
+         <span id="element"></span>   
         </div>
         <div class="rightsection">
           <img src="images/bg.png.webp" alt="" class="src">
         </div>
 
       </section>
+
+      <hr>
+
+      <section class="secondSection">
+        <h1>Past Experience</h1>
+      </section>
+      
     </main>
     <script src="script.js"></script>
+ 
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+       <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer','Cloud Devops','Web Designer'],
+      typeSpeed: 50,
+    });
+  </script>
 </body>
 </html>
